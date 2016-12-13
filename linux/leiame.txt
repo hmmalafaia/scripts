@@ -1,0 +1,5 @@
+Para executar o script:
+1) Altere a variável 'comando' no arquivo 'geraComandoDinamico.sh' conforme desejado.
+2) Altere o arquivo input.txt conforme desejado.
+3) Execute a shell 'geralinha.sh' no terminal linux (exemplo: sh geraComandoDinamico.sh)
+4) Verifique o resultado no arquivo gerado: output.txt
