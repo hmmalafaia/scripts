@@ -12,6 +12,10 @@ Saída:
 
 Comando: sed 'N;s/\n/ /'
 Comando: awk 'NR%2{printf "%s ",$0;next;}1'
+Comando: paste -sd ' \n' filename
+Comando: cat filename | paste -sd ' \n'
+Comando: paste - - filename
+Comando: cat filename | paste - -
 
 Alternativa para notepad++ com RegEx
 
